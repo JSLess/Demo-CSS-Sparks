@@ -1,0 +1,30 @@
+{
+    "lock": false,
+
+    "tasks": {
+        "dev" : "clear && deno run --watch -A Source/App.ts"
+    },
+
+    "imports": {
+
+        "Preact/Render": "https://esm.sh/*preact-render-to-string@6.3.1" ,
+
+        "preact/": "https://esm.sh/preact@10.19.3/",
+        "preact": "https://esm.sh/preact@10.19.3" ,
+
+        "Oak" : "https://deno.land/x/oak@v12.6.1/mod.ts"
+    },
+
+    "compilerOptions" : {
+
+        "jsxImportSource": "preact" ,
+        "jsx" : "react-jsx" ,
+
+        "lib": [
+            "deno.unstable" ,
+            "deno.window" ,
+            "es2023" ,
+            "dom"
+        ]
+    }
+}
