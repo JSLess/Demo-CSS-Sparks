@@ -6,6 +6,11 @@
 Simple demonstration of CSS Sparks, a technique  
 to observe user events without JavaScript.
 
+<br>
+
+[\[ Demo \]][Demo]  
+[\[ Blog \]][Blog]
+
 </div>
 
 <br>
@@ -41,4 +46,6 @@ indicators' background color.
 
 <!----------------------------------------------------------------------------->
 
+[Blog]: https://jsless.deno.dev/blog/CSS-Event-Listeners-Sparks
+[Demo]: https://jsless-demo-sparks.deno.dev/
 [Deno]: https://deno.com/
